@@ -1,26 +1,33 @@
+/*adjustments made to margins*/
 * {
     box-sizing: border-box;
     padding: 0;
-    margin-left: 0;
+    margin: 5px;
 }
 body {
     background-color: #d9dcd6;
 }
+/*adjustments made to padding, margins, and width*/
 .header {
-    padding: 20px;
+    padding: 15px;
+    margin: 5px;
+    width: auto;
+    border: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
+/*Adjustments made to text size*/
 .header h1 {
     display: inline-block;
-    font-size: 38px;
+    font-size: 40px;
 }
 .header h1 .seo {
     color: #d9dcd6;
 }
+/*Adjustments made to padding and margins*/
 .header div {
-    padding-top: 20px;
+    padding-top: 5px;
     margin-right: 25px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -38,12 +45,12 @@ a {
     text-decoration: none;
 }
 p {
-    font-size: 18px;
+    font-size: 15px;
 }
 .hero {
     height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
+    width: auto;
+    margin: 5px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
@@ -51,16 +58,18 @@ p {
 /* Grouped to clean up code */
 .float-left,.float-right {
     float: left;
-    margin-right: 30px;
+    margin-right: 15px;
 }
+/*Adjustments made to width*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+/*Adjustments made to margins and padding*/
 .benefits {
-    margin-right: 20px;
-    padding: 20px;
+    margin: 20px;
+    padding: 15px;
     clear: both;
     float: right;
     width: 20%;
@@ -86,8 +95,8 @@ p {
 }
 /* Grouped to clean up code */
 .search-engine-optimization,.online-reputation-management,.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 30px;
+    margin: 25px;
+    padding: 40px;
     height: 200px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
@@ -95,12 +104,12 @@ p {
 }
 /* Grouped to clean up code */
 .search-engine-optimization img,.online-reputation-management img,.social-media-marketing img {
-    max-height: 150px;
+    max-height: 125px;
 }
 /* Grouped to clean up code */
 .search-engine-optimization,.online-reputation-management,.social-media-marketing, h2 {
-    margin-bottom: 25px;
-    font-size: 20px;
+    margin: 25px;
+    font-size: 25px;
 }
 .footer {
     padding: 10;
@@ -109,5 +118,5 @@ p {
     text-align: center;
 }
 .footer h2 {
-    font-size: 8px;
+    font-size: 10px;
 }
